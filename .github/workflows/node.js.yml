@@ -23,5 +23,6 @@ jobs:
      - run: node --version
      - run: npm --version
      - uses: actions/checkout@v3
-     - run: npm install
+     - run: npm init
+     - run: npm i express
      - run: node app.js
